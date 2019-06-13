@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="101.675" height="83" viewBox="0 0 101.675 83">
+  <defs>
+    <filter id="Shower_Icon" x="0" y="0" width="101.675" height="83" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Shower_Icon)">
+    <path id="Shower_Icon-2" data-name="Shower Icon" d="M495.83,135.5h-3.391c-.032,0-.06.019-.092.019a1.707,1.707,0,0,1,0-3.415h0v-.019h3.415A21.344,21.344,0,1,0,474.418,104.8a1.707,1.707,0,0,1-2.314,1.093,13.576,13.576,0,0,0-5.391-1.106,13.723,13.723,0,0,0-13.107,9.835,1.707,1.707,0,0,1-2.31,1.095,8.431,8.431,0,0,0-3.345-.685,8.538,8.538,0,0,0,0,17.075h3.415a1.707,1.707,0,0,1,0,3.415h-3.415a11.952,11.952,0,1,1,2.961-23.533,17.171,17.171,0,0,1,15.8-10.617,16.984,16.984,0,0,1,5,.746A24.759,24.759,0,1,1,495.83,135.5Zm-29.721-12.89a1.707,1.707,0,1,1,2.957,1.708l-11.953,20.7a1.707,1.707,0,0,1-2.957-1.708Zm7.267,5.122a1.707,1.707,0,1,1,2.957,1.708l-11.953,20.7a1.707,1.707,0,1,1-2.957-1.708Zm13.223-5.122a1.707,1.707,0,1,1,2.957,1.708l-11.953,20.7a1.708,1.708,0,0,1-2.957-1.708Z" transform="translate(-427 -79.99)" fill="#43a6df" fill-rule="evenodd"/>
+  </g>
+</svg>

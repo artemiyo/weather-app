@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94" height="56" viewBox="0 0 94 56">
+  <defs>
+    <filter id="fog" x="0" y="0" width="94" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#fog)">
+    <path id="fog-2" data-name="fog" d="M514.1,1495.8H498.9a1.9,1.9,0,1,1,0-3.8h15.2a1.9,1.9,0,0,1,0,3.8Zm-26.6,0H441.9a1.9,1.9,0,0,1,0-3.8h45.6a1.9,1.9,0,0,1,0,3.8Zm-41.8,11.4a1.9,1.9,0,1,1,0-3.8h15.2a1.9,1.9,0,1,1,0,3.8Zm-3.8,7.6h45.6a1.9,1.9,0,0,1,0,3.8H441.9a1.9,1.9,0,0,1,0-3.8Zm3.8,11.4h26.6a1.9,1.9,0,1,1,0,3.8H445.7a1.9,1.9,0,1,1,0-3.8Zm38,0h26.6a1.9,1.9,0,1,1,0,3.8H483.7a1.9,1.9,0,1,1,0-3.8Zm-11.4-19a1.9,1.9,0,1,1,0-3.8h38a1.9,1.9,0,1,1,0,3.8Zm24.7,9.5a1.9,1.9,0,0,1,1.9-1.9h15.2a1.9,1.9,0,0,1,0,3.8H498.9a1.9,1.9,0,0,1-1.9-1.9Z" transform="translate(-431 -1486)" fill="#43a6df" fill-rule="evenodd"/>
+  </g>
+</svg>

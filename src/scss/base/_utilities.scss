@@ -1,0 +1,7 @@
+.hidden {
+	display: none;
+}
+
+.animation {
+	@include smooth(smooth, 0s);
+}

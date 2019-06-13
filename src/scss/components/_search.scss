@@ -1,0 +1,36 @@
+.search {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	margin: 0 auto 5rem;
+
+	&__input {
+		font-family: 'Poppins', sans-serif;
+		width: 100%;
+		height: 6rem;
+		padding: 2rem 2rem 2rem 6rem;
+		border-radius: 5rem;
+		border: none;
+		cursor: pointer;
+		outline: none;
+		@include shadow;
+		transition: width 0.5s ease;
+		color: $color-bg;
+	}
+
+	i {
+		position: absolute;
+		font-size: 2rem;
+		top: 50%;
+		left: 4%;
+		transform: translate(-50%, -50%);
+		color: $color-bg;
+
+		@include respond(phone) {
+			left: 6%;
+		}
+
+
+	}
+}

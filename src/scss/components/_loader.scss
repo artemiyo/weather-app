@@ -1,0 +1,21 @@
+.loader-box {
+	width: 100%;
+	height: 100%;
+	background-color: $color-bg;
+
+	#loader {
+		border: 0.5rem solid $color-main;
+		border-radius: 50%;
+		border-top: 0.5rem solid $color-body;
+		width: 6rem;
+		height: 6rem;
+		margin: 0 auto;
+		animation: spin 1s linear infinite;
+
+		@include respond(desktops) {
+			transform: translate(-50%, -10%);
+		}
+	}
+
+
+}

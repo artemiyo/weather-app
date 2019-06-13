@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110.587" height="86" viewBox="0 0 110.587 86">
+  <defs>
+    <filter id="Thunderstorm_Icon" x="0" y="0" width="110.587" height="86" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Thunderstorm_Icon)">
+    <path id="Thunderstorm_Icon-2" data-name="Thunderstorm Icon" d="M502.2,380.771H498.45c-.036,0-.066.021-.1.021a1.889,1.889,0,1,1,0-3.779v-.021h3.779A23.617,23.617,0,1,0,478.51,346.8a1.889,1.889,0,0,1-2.56,1.209,14.994,14.994,0,0,0-5.965-1.226,15.187,15.187,0,0,0-14.5,10.883,1.889,1.889,0,0,1-2.556,1.211,9.33,9.33,0,0,0-3.7-.756,9.447,9.447,0,1,0,0,18.893H453a1.889,1.889,0,0,1,0,3.779h-3.779a13.225,13.225,0,1,1,3.276-26.039,19,19,0,0,1,17.484-11.748,18.736,18.736,0,0,1,5.532.826A27.4,27.4,0,1,1,502.2,380.771Zm-33.938-1.419,9.434-15.115a.945.945,0,0,1,1.644.922l-5.555,11.858h4.657a.944.944,0,0,1,.478.121.967.967,0,0,1,.378,1.311c-1.05,1.685-9.434,15.115-9.434,15.115a.945.945,0,0,1-1.644-.924l5.564-11.844s-5.951-.011-4.657-.011a.931.931,0,0,1-.478-.119A.969.969,0,0,1,468.264,379.352Z" transform="translate(-427 -319.99)" fill="#43a6df" fill-rule="evenodd"/>
+  </g>
+</svg>

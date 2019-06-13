@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;  // 1rem = 10px;
+
+	@include respond(tab-port) {
+		font-size: 55%;
+	}
+
+	@include respond(phone) {
+		font-size: 40%;
+	}
+}
+
+body {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color: $color-body;
+	color: $color-main;
+	padding: 8rem 0;
+}
+
+.container {
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 2rem;
+
+	
+	@include respond(desktops) {
+		max-width: 100rem;
+	}
+
+	@include respond(tab-port) {
+		max-width: 78rem;
+	}
+
+	@include respond(phone) {
+		max-width: 58rem;
+	}
+}

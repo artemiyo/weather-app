@@ -1,0 +1,157 @@
+.wrapper {
+	position: relative;
+	background-color: $color-bg;
+	padding: 4.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 1.5rem;
+	box-shadow: 0 0 1.4rem rgba(0,0,0, 0.23);
+	width: 100%;
+	margin: auto;
+
+	
+	@include respond(desktops) {
+		flex-direction: column;
+	}
+}
+
+.weather {
+	margin-bottom: 5rem;
+}
+
+.location {
+
+	
+	@include respond(desktops) {
+		text-align: center;
+	}
+	
+	&__date {
+		font-size: 2rem;
+	}
+}
+
+.weather-today {
+	margin-top: 12rem;
+
+	@include respond(desktops) {
+		margin-top: 7rem;
+	}
+
+	@include respond(phone) {
+		margin-top: 4rem;
+	}
+}
+
+.weather-main {
+	text-align: center;
+	margin-bottom: 5rem;
+
+	&__temperature {
+		font-size: 4rem;
+	}
+
+	&__description {
+		font-size: 1.5rem;
+	}
+
+	&__img {
+		
+		@include respond(desktops) {
+			max-width: 68%;
+	}
+	}
+}
+
+.weather-details {
+
+	display: flex;
+	align-items: center;
+
+	
+	@include respond(desktops) {
+		justify-content:center;
+	}
+
+
+	&__item {
+		display: flex;
+		align-items: center;
+
+		i {
+			font-size: 2.5rem;
+		}
+
+		&:not(:last-child) {
+			margin-right: 6rem;
+		}
+	}
+
+	&__info {
+		font-size: 1.5rem;
+		margin-left: 1rem;
+	}
+}
+
+
+
+.weather-forecast {
+
+	&__list {
+		color: $color-bg;
+
+		
+		@include respond(desktops) {
+			display: flex;
+			flex-wrap: wrap
+		}
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 39rem;
+		height: 11rem;
+		padding: 3rem;
+		border-radius: 1.5rem;
+		background-color: $color-main;
+		@include shadow;
+		font-size: 2rem;
+
+		@include respond(desktops) {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		@include respond(phone) {
+			width: 100%;
+		}
+
+		
+
+		&:not(:last-child) {
+			margin-bottom: 1rem;
+		}
+	}
+
+	&__info {
+		display: flex;
+		align-items: center;
+
+		@include respond(phone) {
+			width: 60%;
+		}
+	}
+
+	&__img {
+		@include respond(phone) {
+			width: 50%;
+		}
+	}
+
+	&__temperature {
+		margin-left: 1rem;
+	}
+}

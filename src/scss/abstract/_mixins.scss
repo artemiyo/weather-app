@@ -1,0 +1,31 @@
+// Shadow
+
+@mixin shadow () {
+	box-shadow: 0 0.3rem 0.6rem rgba(0,0,0, 0.16);
+}
+
+
+@mixin smooth($animation, $delay) {
+	animation: $animation 1s ease $delay;
+}
+
+
+// Media queries manager
+@mixin respond($breakpoint) {
+	@if $breakpoint == phone-min {
+		@media only screen and (max-width: 20em) { @content }; 	//320px
+	}
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 36em) { @content };    //576px
+	}
+	@if $breakpoint == tab-port {
+        @media only screen and (max-width: 48em) { @content };   //768px
+    }
+    @if $breakpoint == desktops {
+        @media only screen and (max-width: 62em) { @content };   //992px
+    }
+    @if $breakpoint == large-desktops {
+        @media only screen and (max-width: 75em) { @content };    	//1200px
+    }
+}
+
